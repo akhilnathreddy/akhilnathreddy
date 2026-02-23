@@ -12,9 +12,8 @@ html,css,git,github,pycharm,js,bash
 
 ## Top Projects
 
-- [Akhil-portfolio](https://github.com/akhilnathreddy/Akhil-portfolio) - A personal portfolio website showcasing my projects and skills. ⭐ 0 stars | Language: HTML | Forks: 0 | Issues: 0
-- [cap124](https://github.com/akhilnathreddy/cap124) - A web project built with HTML and CSS. ⭐ 0 stars | Language: HTML | Forks: 0 | Issues: 0
-- [akhilnathreddy](https://github.com/akhilnathreddy/akhilnathreddy) - My main repository containing various coding projects. ⭐ 0 stars | Language: Not specified | Forks: 0 | Issues: 0
+- [Akhil-portfolio](https://github.com/akhilnathreddy/portfolio) - A personal portfolio website showcasing my projects and skills.
+- [akhilnathreddy](https://github.com/akhilnathreddy/akhilnathreddy) - My main repository containing various coding projects.
 
 ## GitHub Stats
 
