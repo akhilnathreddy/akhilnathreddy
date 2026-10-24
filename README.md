@@ -154,6 +154,16 @@ akhil = {
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=akhilnathreddy&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
 </p>
 
+<h3 align="center">🐍 Snake eating my contributions</h3>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhilnathreddy/akhilnathreddy/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akhilnathreddy/akhilnathreddy/output/github-snake.svg" />
+    <img alt="Snake eating my GitHub contributions" src="https://raw.githubusercontent.com/akhilnathreddy/akhilnathreddy/output/github-snake.svg" />
+  </picture>
+</p>
+
 ---
 
 ## 🤝 Let's Connect
