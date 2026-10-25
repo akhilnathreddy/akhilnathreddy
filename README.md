@@ -25,6 +25,7 @@ I'm **Akhil** — a **machine learning** enthusiast with a strong foundation in 
 - 📐 **Strong in maths** — linear algebra, calculus, probability & statistics, and optimization are where I feel most at home
 - 🔁 **MLOps** — interested in taking models from notebook to production: pipelines, CI/CD, containerization, monitoring and reproducibility
 - 🤖 Currently building **[Axon](https://github.com/akhilnathreddy/chatbot)** — an AI chatbot with vector-embedding memory (RAG) and live web search
+- 🌫️ Built a **[Delhi-NCR air-quality forecaster](https://github.com/akhilnathreddy/delhi-aqi-forecast)** — PM2.5 24–72 h ahead from CPCB stations, weather forecasts and satellite stubble-fire data ([live app](https://delhi-aqi-forecast-ml.streamlit.app/))
 - 🌐 Also comfortable on the full stack with **Next.js, React, Node.js & MongoDB**
 - 🤝 Open to collaborating on ML and AI projects — let's connect!
 
@@ -81,6 +82,19 @@ akhil = {
 ## 🚀 Featured Projects
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🌫️ <a href="https://github.com/akhilnathreddy/delhi-aqi-forecast">Delhi-NCR PM2.5 Forecaster</a></h3>
+      <p>Forecasts hourly PM2.5 24–72 hours ahead for 56 CPCB/state-board monitoring stations by fusing station data, NOAA GFS weather forecasts and VIIRS satellite fire detections from stubble burning. Compares LightGBM, a Temporal Fusion Transformer and a wind-aware spatio-temporal graph network built from scratch in PyTorch; the ensemble cuts error 25–28% against persistence on held-out seasons. Includes a Streamlit app with live 72-hour forecasts.</p>
+      <p>
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+        <img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square" />
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+        <img src="https://img.shields.io/badge/Time%20series-0891b2?style=flat-square" />
+        <a href="https://delhi-aqi-forecast-ml.streamlit.app/"><img src="https://img.shields.io/badge/Live%20Demo-0891b2?style=flat-square&logo=streamlit&logoColor=white" /></a>
+      </p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🤖 <a href="https://github.com/akhilnathreddy/chatbot">Axon — AI Chatbot</a></h3>
