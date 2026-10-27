@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=600&lines=Machine+Learning+enthusiast+%F0%9F%A7%A0;Math+is+my+superpower+%E2%88%91+%E2%88%AB+%E2%88%87;Taking+models+from+notebook+to+production+with+MLOps;Building+AI+apps+with+LLMs+%26+vector+memory+%F0%9F%A4%96" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=600&lines=Machine+Learning+enthusiast+%F0%9F%A7%A0;Math+is+my+superpower+%E2%88%91+%E2%88%AB+%E2%88%87;Taking+models+from+notebook+to+production+with+MLOps;Segmenting+brain+tumors+in+MRI+with+deep+learning+%F0%9F%A7%A0" alt="Typing SVG" />
   </a>
 </p>
 
@@ -24,7 +24,7 @@ I'm **Akhil** — a **machine learning** enthusiast with a strong foundation in 
 - 🧠 **Machine Learning** is my passion — from classical models to deep learning and LLMs
 - 📐 **Strong in maths** — linear algebra, calculus, probability & statistics, and optimization are where I feel most at home
 - 🔁 **MLOps** — interested in taking models from notebook to production: pipelines, CI/CD, containerization, monitoring and reproducibility
-- 🤖 Currently building **[Axon](https://github.com/akhilnathreddy/chatbot)** — an AI chatbot with vector-embedding memory (RAG) and live web search
+- 🧠 Built a **[brain tumor segmentation](https://github.com/akhilnathreddy/brain-tumor-seg)** system — outlines gliomas in 3D from four MRI sequences (BraTS 2020), robust to missing scans, with uncertainty maps ([live app](https://brain-tumor-seg-ml.streamlit.app/))
 - 🌫️ Built a **[Delhi-NCR air-quality forecaster](https://github.com/akhilnathreddy/delhi-aqi-forecast)** — PM2.5 24–72 h ahead from CPCB stations, weather forecasts and satellite stubble-fire data ([live app](https://delhi-aqi-forecast-ml.streamlit.app/))
 - 🌐 Also comfortable on the full stack with **Next.js, React, Node.js & MongoDB**
 - 🤝 Open to collaborating on ML and AI projects — let's connect!
@@ -97,13 +97,13 @@ akhil = {
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/akhilnathreddy/chatbot">Axon — AI Chatbot</a></h3>
-      <p>Context-aware AI assistant with short- and long-term memory (MongoDB Atlas Vector Search + Cohere embeddings), live Google results via Serper, and Gemini as the LLM — wrapped in a custom “Aurora Glass” UI.</p>
+      <h3>🧠 <a href="https://github.com/akhilnathreddy/brain-tumor-seg">Brain Tumor Segmentation</a></h3>
+      <p>Segments gliomas in 3D from four MRI sequences (BraTS 2020) into whole tumor, tumor core and enhancing tumor, with volumes in mL and an uncertainty map. Compares a U-Net, an Attention U-Net and a pretrained ResNet34 U-Net; modality dropout keeps it working when a scan is missing. Test Dice 0.90 / 0.83 / 0.79 on unseen patients.</p>
       <p>
-        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" />
-        <img src="https://img.shields.io/badge/Express-333?style=flat-square&logo=express" />
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-        <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+        <img src="https://img.shields.io/badge/Medical%20imaging-0891b2?style=flat-square" />
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+        <a href="https://brain-tumor-seg-ml.streamlit.app/"><img src="https://img.shields.io/badge/Live%20Demo-0891b2?style=flat-square&logo=streamlit&logoColor=white" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
