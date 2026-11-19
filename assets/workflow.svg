@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="190" viewBox="0 0 880 190" role="img" aria-label="How I work: understand the data, validate it, build a model, evaluate it honestly, ship and share">
+  <style>
+    .bg { fill: #1a1b27; }
+    .box { fill: #24283b; stroke: #3b4261; stroke-width: 1; }
+    .ttl { font: 700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #e0e6ff; }
+    .txt { font: 400 11.5px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #8b93b8; }
+    .head { font: 600 12px 'Fira Code', Consolas, monospace; fill: #7aa2f7; letter-spacing: 2px; }
+    .ico { font: 22px 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif; }
+    .flow { stroke: url(#line); stroke-width: 2; stroke-dasharray: 6 6; animation: dash 1.2s linear infinite; fill: none; }
+    @keyframes dash { to { stroke-dashoffset: -12; } }
+  </style>
+  <defs>
+    <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#d946ef"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#a78bfa"/></marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="880" height="190" rx="16"/>
+  <text class="head" x="440" y="30" text-anchor="middle">HOW I WORK</text>
+
+  <g>
+    <rect class="box" x="20" y="50" width="150" height="118" rx="12"/>
+    <text class="ico" x="36" y="84">🔎</text>
+    <text class="ttl" x="36" y="112">Understand</text>
+    <text class="txt" x="36" y="132">Read the domain and</text>
+    <text class="txt" x="36" y="148">the raw data first</text>
+  </g>
+  <g>
+    <rect class="box" x="192" y="50" width="150" height="118" rx="12"/>
+    <text class="ico" x="208" y="84">🧹</text>
+    <text class="ttl" x="208" y="112">Validate</text>
+    <text class="txt" x="208" y="132">Quality checks, no</text>
+    <text class="txt" x="208" y="148">leakage across splits</text>
+  </g>
+  <g>
+    <rect class="box" x="364" y="50" width="150" height="118" rx="12"/>
+    <text class="ico" x="380" y="84">🧠</text>
+    <text class="ttl" x="380" y="112">Model</text>
+    <text class="txt" x="380" y="132">Baselines first, then</text>
+    <text class="txt" x="380" y="148">deep models in PyTorch</text>
+  </g>
+  <g>
+    <rect class="box" x="536" y="50" width="150" height="118" rx="12"/>
+    <text class="ico" x="552" y="84">📏</text>
+    <text class="ttl" x="552" y="112">Evaluate</text>
+    <text class="txt" x="552" y="132">Held-out data, intervals</text>
+    <text class="txt" x="552" y="148">and uncertainty</text>
+  </g>
+  <g>
+    <rect class="box" x="708" y="50" width="152" height="118" rx="12"/>
+    <text class="ico" x="724" y="84">🚀</text>
+    <text class="ttl" x="724" y="112">Ship &amp; share</text>
+    <text class="txt" x="724" y="132">Live apps, open data,</text>
+    <text class="txt" x="724" y="148">reproducible code</text>
+  </g>
+
+  <path class="flow" d="M170 109 H190" marker-end="url(#arrow)"/>
+  <path class="flow" d="M342 109 H362" marker-end="url(#arrow)"/>
+  <path class="flow" d="M514 109 H534" marker-end="url(#arrow)"/>
+  <path class="flow" d="M686 109 H706" marker-end="url(#arrow)"/>
+</svg>

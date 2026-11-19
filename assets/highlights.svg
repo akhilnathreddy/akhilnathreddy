@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="170" viewBox="0 0 880 170" role="img" aria-label="Highlights: 0.90 Dice brain tumor segmentation, 28 percent lower PM2.5 error, 133,885 molecules curated, 4 Kaggle competitions">
+  <style>
+    .card { fill: #1a1b27; stroke: #2a2e45; stroke-width: 1; }
+    .num { font: 700 34px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .lbl { font: 600 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #c0caf5; }
+    .sub { font: 400 11.5px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #7a83a8; }
+    .tile { opacity: 0; animation: up .7s ease-out forwards; }
+    .t2 { animation-delay: .15s } .t3 { animation-delay: .3s } .t4 { animation-delay: .45s }
+    @keyframes up { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: translateY(0) } }
+  </style>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#d946ef"/></linearGradient>
+    <linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#0ea5e9"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+    <linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#f97316"/></linearGradient>
+    <linearGradient id="g4" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#20beff"/></linearGradient>
+  </defs>
+
+  <g class="tile">
+    <rect class="card" x="4" y="10" width="202" height="150" rx="16"/>
+    <rect x="24" y="26" width="36" height="4" rx="2" fill="url(#g1)"/>
+    <text class="num" x="24" y="76" fill="url(#g1)">0.90</text>
+    <text class="lbl" x="24" y="102">Dice · brain tumors</text>
+    <text class="sub" x="24" y="124">3D MRI segmentation with</text>
+    <text class="sub" x="24" y="140">uncertainty maps</text>
+  </g>
+  <g class="tile t2">
+    <rect class="card" x="228" y="10" width="202" height="150" rx="16"/>
+    <rect x="248" y="26" width="36" height="4" rx="2" fill="url(#g2)"/>
+    <text class="num" x="248" y="76" fill="url(#g2)">−28%</text>
+    <text class="lbl" x="248" y="102">PM2.5 forecast error</text>
+    <text class="sub" x="248" y="124">72 h ahead, 56 stations,</text>
+    <text class="sub" x="248" y="140">vs persistence baseline</text>
+  </g>
+  <g class="tile t3">
+    <rect class="card" x="452" y="10" width="202" height="150" rx="16"/>
+    <rect x="472" y="26" width="36" height="4" rx="2" fill="url(#g3)"/>
+    <text class="num" x="472" y="76" fill="url(#g3)">133,885</text>
+    <text class="lbl" x="472" y="102">molecules curated</text>
+    <text class="sub" x="472" y="124">QM9 release with a DOI and</text>
+    <text class="sub" x="472" y="140">8 leakage-audited splits</text>
+  </g>
+  <g class="tile t4">
+    <rect class="card" x="676" y="10" width="200" height="150" rx="16"/>
+    <rect x="696" y="26" width="36" height="4" rx="2" fill="url(#g4)"/>
+    <text class="num" x="696" y="76" fill="url(#g4)">4</text>
+    <text class="lbl" x="696" y="102">Kaggle competitions</text>
+    <text class="sub" x="696" y="124">incl. Google DeepMind and</text>
+    <text class="sub" x="696" y="140">Enveda · 3 public datasets</text>
+  </g>
+</svg>
